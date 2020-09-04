@@ -1,0 +1,25 @@
+@import 'normalize';
+@import 'syntax';
+@import 'variables';
+
+
+body {
+  color: $body-color;
+  background-color: $dark;
+}
+h1 {
+  color: beige;
+}
+
+
+/* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
+// @import 'parts/home-page';
+
+/* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
+// @import 'parts/post-page';
+
+/* - - - - - - - - - - Tag Styles - - - - - - - - - - */
+// @import 'parts/tag';
+
+/* - - - - - - - - - - Media Styles - - - - - - - - - - */
+@import 'media';

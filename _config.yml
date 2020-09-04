@@ -21,12 +21,18 @@ social-twitch: filipecrespodev # add your Twitch handle
 # Tracker
 analytics: UA-170278743-1 # Google Analytics
 
-# Build Settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
+  # Build Settings
 markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
   - jemoji
+  - jekyll-coffeescript
 
 paginate: 8
 paginate_path: "/page/:num"
@@ -34,4 +40,4 @@ paginate_path: "/page/:num"
 lang: pt-BR
 languages: ["pt"]
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude: ["vender", "node_modules", "gulpfile.js", "package.json", "yarn.lock"]
