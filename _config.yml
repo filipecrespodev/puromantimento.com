@@ -22,8 +22,8 @@ social-twitch: filipecrespodev # add your Twitch handle
 analytics: UA-170278743-1 # Google Analytics
 
 sass:
-  style: compressed
   sass_dir: _sass
+  style: compressed
 
   # Build Settings
 markdown: kramdown

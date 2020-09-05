@@ -1,25 +1,12 @@
-@import 'normalize';
-@import 'syntax';
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
 @import 'variables';
 
+@import 'syntax';
 
-body {
-  color: $body-color;
-  background-color: $dark;
-}
-h1 {
-  color: beige;
-}
+@import 'style';
 
-
-/* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
-// @import 'parts/home-page';
-
-/* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
-// @import 'parts/post-page';
-
-/* - - - - - - - - - - Tag Styles - - - - - - - - - - */
-// @import 'parts/tag';
-
-/* - - - - - - - - - - Media Styles - - - - - - - - - - */
 @import 'media';
