@@ -3,6 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Sou Filipe Crespo, tenho 27 anos, nascido em Portugal e criado no Brasil.
   Já atuei em diversas áreas do mercado brasileiro de TI.
   Hoje sou desenvolvedor Php, Ruby e JavaScript, além disso me arrisco em projetos com Python, Node e VueJS.
+
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://filipecrespodev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -40,4 +41,4 @@ paginate_path: "/page/:num"
 lang: pt-BR
 languages: ["pt"]
 
-exclude: ["vender", "node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude: ["vender"]
